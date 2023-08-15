@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* display: flex; */
+    border: 1px solid grey;
+    min-height: 60vh;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#resumen{
+    display: flex;
+    flex-direction: column;
+}
+
+#texto{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 50px;
+    align-items: flex-start;
+    margin-bottom: 200px;
+    flex-direction: column;
+}
+
+input{
+    width: 470px;
+    margin-right: 10px;
+}
+
+#agregar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__uno{
+    margin-left: 94px;
+}
+
+strong{
+    margin-right: 100px;
+}

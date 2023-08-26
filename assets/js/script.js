@@ -5,7 +5,7 @@ const realizadas = document.getElementById('idRealizadas');
 const total = document.getElementById('total');
 const listaTareas = document.getElementById('listaTareas');
 
-// Variables
+// Arreglo
 let tareas =[{
     id: 116922190488,
     nombre:'Ir de compras',

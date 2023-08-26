@@ -1,7 +1,7 @@
-body{
+/* body{
     margin: 0;
     padding: 0;
-}
+} */
 
 .container{
     /* display: flex; */
@@ -16,13 +16,24 @@ body{
     flex-direction: column;
 }
 
-#texto{
+.tablaResumen{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#tabla{
     display: flex;
     justify-content: flex-start;
     margin-right: 50px;
     align-items: flex-start;
     margin-bottom: 200px;
     flex-direction: column;
+    margin-top: 20px;
+}
+table{
+    width: 10%;
+    
 }
 
 input{
@@ -36,9 +47,10 @@ input{
 }
 
 .container__uno{
-    margin-left: 94px;
+    margin-top: 25px;
+    margin-left: 10px;
 }
 
 strong{
-    margin-right: 100px;
+    margin-right: 16px;
 }
